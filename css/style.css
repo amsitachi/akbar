@@ -499,7 +499,7 @@ header .navbar a:hover{
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeOut {
+@keyframes  fadeOut {
     100% {
         opacity: 0;
         visibility: hidden;
