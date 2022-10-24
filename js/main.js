@@ -20,3 +20,11 @@ var typed = new Typed('.typing-text', {
 VanillaTilt.init(document.querySelectorAll('.tilt'),{
     max:25
 });
+
+
+
+
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+  });
